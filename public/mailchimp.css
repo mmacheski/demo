@@ -1,0 +1,15 @@
+body {
+    padding-top:6rem;
+}
+
+.logo { 
+    display: inline-block;
+    vertical-align: middle;
+    height: 6rem;
+    width: 6rem;
+    margin: 1rem;
+}
+
+.header {
+    font-size: 2rem;
+}

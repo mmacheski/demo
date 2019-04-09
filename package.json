@@ -1,0 +1,25 @@
+{
+  "name": "mailchimp-markdown-converter",
+  "version": "1.0.0",
+  "description": "A Markdown-HTML converter for Mailchimp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "markdown",
+    "mailchimp",
+    "html"
+  ],
+  "author": "Mary Macheski-Preston",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mocha": "^6.1.2",
+    "sinon": "^7.3.1"
+  }
+}

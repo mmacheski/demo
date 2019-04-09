@@ -1,0 +1,24 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+    <form name="markdown" method="POST" action="/convert" target="new_tab">
+        <div class="jumbotron text-center row">
+            <% include ../partials/markdown %>
+        </div>
+        <% include ../partials/submit %>
+    </form>
+</main>
+
+</body>
+</html>
